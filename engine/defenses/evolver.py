@@ -1,4 +1,4 @@
-# In a file like aegis/defenses/evolver.py
+
 
 class SystemPromptEvolver:
     def __init__(self, judge_provider):
@@ -6,8 +6,7 @@ class SystemPromptEvolver:
 
     def evolve_defense(self, previous_prompt: str, failure_report: dict) -> str:
         
-        # This is the meta-prompt you send to the "Blue Team" LLM.
-        # It needs to be told to REWRITE, not ADD TO.
+        
         evolution_prompt = f"""
         You are an AI defense expert. An AI assistant with the system prompt below has just failed a red team attack.
 
