@@ -1,4 +1,4 @@
-# aegis/attacks/base_attack.py
+
 from abc import ABC, abstractmethod
 
 class BaseAttack(ABC):

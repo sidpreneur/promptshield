@@ -1,6 +1,5 @@
-# aegis/providers/ollama_provider.py
 from openai import OpenAI
-from .base_provider import BaseProvider
+from engine.providers.base_provider import BaseProvider
 
 class OllamaProvider(BaseProvider):
     """A provider for local models served via Ollama's OpenAI-compatible API."""
